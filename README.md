@@ -32,6 +32,10 @@ rotate_to_angle(target_angle_rad)	                 Rotates to a specific angle (
 
 circular_movement_counterClockWise()	             Moves the robot in a circular path (counter-clockwise).
 
+## 📽 Demo
+
+![demo](demo.gif)
+
 
 # 📜 Predefined Path
 The robot follows this sequence:
