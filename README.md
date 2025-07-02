@@ -37,28 +37,6 @@
 ![demo](demo.gif)
 
 
-# 📜 Predefined Path
-The robot follows this sequence:
-
-A → B: Linear movement.
-
-B → D: 135° rotation + linear movement.
-
-D → F: -135° rotation + linear movement.
-
-F → G: 135° rotation + linear movement.
-
-G → I: -75° rotation + linear movement.
-
-I → J: Circular motion (counter-clockwise).
-
-I → N: Linear movement (skipping J).
-
-N → A: Rotate to 0° + linear movement.
-
-A → C: 135° rotation + linear movement.
-
-C → D: 45° rotation + linear movement.
 
 # 🛑 Stopping the Simulation
 The simulation stops automatically after completing the path (sim.stopSimulation()).
